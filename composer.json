@@ -1,12 +1,12 @@
 {
-    "name": "1doctecnologia/getpdf",
+    "name": "betafcc/saveaspdf",
     "description": "Client for generating pdf from url",
     "type": "project",
     "license": "MIT",
     "authors": [
         {
-            "name": "Brendon Faccion",
-            "email": "brendon.faccion@1doc.com.br"
+            "name": "Beta Faccion",
+            "email": "brendon.faccion@gmail.com"
         }
     ],
     "require": {
@@ -23,5 +23,10 @@
     },
     "config": {
         "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Betafcc\\": "src"
+        }
     }
 }

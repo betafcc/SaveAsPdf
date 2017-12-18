@@ -1,6 +1,7 @@
 <?php
 error_reporting(E_ALL ^ E_WARNING);
 
-require __DIR__.'/../src/util.php';
+require __DIR__.'/../vendor/autoload.php';
 
-sendPdf($_GET['url']);
+
+Betafcc\SaveAsPdf::sendPdf($_GET['url']);
