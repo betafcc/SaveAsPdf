@@ -1,0 +1,27 @@
+{
+    "name": "1doctecnologia/getpdf",
+    "description": "Client for generating pdf from url",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brendon Faccion",
+            "email": "brendon.faccion@1doc.com.br"
+        }
+    ],
+    "require": {
+        "jonnyw/php-phantomjs": "4.*"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "PhantomInstaller\\Installer::installPhantomJS"
+        ],
+        "post-update-cmd": [
+            "PhantomInstaller\\Installer::installPhantomJS"
+        ],
+        "dev": "@php -S localhost:3000 -t example"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
