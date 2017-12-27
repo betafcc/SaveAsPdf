@@ -9,7 +9,7 @@ A helper to download any url as PDF with php, using phantomJS
 Betafcc\SaveAsPdf::sendPdf(string $url, string $filename=null)
 ```
 
-Get the $url and send to download with name as $filename or a random name
+Get the $url and send to download with name as $filename if provided or a random name
 
 
 ## Example
