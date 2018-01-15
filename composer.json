@@ -1,7 +1,7 @@
 {
     "name": "betafcc/saveaspdf",
     "description": "Client for generating pdf from url",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
