@@ -6,7 +6,7 @@
     "authors": [
         {
             "name": "Beta Faccion",
-            "email": "brendon.faccion@gmail.com"
+            "email": "betafccn@gmail.com"
         }
     ],
     "require": {
@@ -14,6 +14,9 @@
     },
     "scripts": {
         "post-install-cmd": [
+            "PhantomInstaller\\Installer::installPhantomJS"
+        ],
+        "post-package-install": [
             "PhantomInstaller\\Installer::installPhantomJS"
         ],
         "post-update-cmd": [
